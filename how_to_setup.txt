@@ -1,0 +1,14 @@
+1. เปิด terminal พิมคำสั่ง nano .env และตั่งค่าการเชื่อมต่อกับฐานข้อมูล
+
+DB_HOST=localhost
+DB_DATABASE=cms_interview
+DB_USERNAME=root
+DB_PASSWORD=root
+
+2. พิมพ์ คำสั่ง php artisan migrate
+3. พิมพ์ คำสั่ง php artisan db:seed
+
+
+1. open terminal type "nano .env" and setiing database connection
+2. type "php artisan migrate" for create table
+3. type "php artisna db:seed" for insert example data
